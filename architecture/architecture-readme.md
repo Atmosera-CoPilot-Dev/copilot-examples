@@ -4,6 +4,10 @@ With a source file in scope in Copilot chat, yuo can simple type:
 
 `make me a mermaid diagram for this`
 
+We were pretty vague about what we wanted here, and for my try it used a network timing diagram. To be more explicit we could say:
+
+`create a network timing diagram in mermaid format for weather.py`
+
 By using the [weather.py](../api/weather.py) example, we can get network timing diagram like the one below. The mermaid result looks like this:
 
 ```
