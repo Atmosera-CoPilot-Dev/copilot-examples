@@ -1,0 +1,15 @@
+# Note: At the time of this writing, Copilot exclusions have been rolled back and are this not available. https://github.blog/changelog/2023-11-20-copilot-content-exclusions-temporary-rollback-and-upcoming-fix/
+
+# The .copilot_ignore file is used to specify which files or directories GitHub Copilot should ignore when making suggestions. It works similarly to a .gitignore file.
+# For example, if you have a directory of sensitive data that you don't want Copilot to use for suggestions, you can add that directory to your .copilot_ignore file.
+
+# See https://docs.github.com/en/copilot/managing-copilot-business/configuring-content-exclusions-for-github-copilot for more information.
+
+
+# Ignore all files in the secrets directory
+./secrets/*
+
+# Ignore the sensitive_data.txt file
+sensitive_data.txt
+
+secrets-readme.md

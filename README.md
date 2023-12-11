@@ -11,5 +11,10 @@ Here's a quick rundown of the modules and a suggested order of presenting:
 * Markdown. See [markdown](./markdown/) - Here we'll use Copilot to build a simple markdown document with a table of contents and some sections.
 * Code translation. See [translate-code](./translate-code/) - Here we'll use Copilot to translate some code from Python to Go.
 * SQL. See [sql](./sql/) - Here we'll use Copilot to build a simple SQL queries on a 3 table DB.
+* Security. See [security](./security/) - Here we have a python script that suffers from SQL injection. We'll ask Copilot if there are any vulnerabilities and it will suggest a fix.
 * Getting up to speed on a new code base. See [new-codebase](./new-codebase/) - Here we'll look at how you can use Copilot to get up to speed on a new code base.
+
+TBD:
+
+.copilot_ignore
 
