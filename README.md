@@ -1,5 +1,30 @@
 # copilot-examples
-Code snippets and examples demonstrating GH Copilot functionality
+Code snippets and examples demonstrating GH Copilot functionality. This content is complimentary to the [Copilot for Developers (Intermediate) Workshop](https://github.com/services/github-copilot-for-developers-intermediate ).
+
+# Installation
+
+1. Clone the repository:
+
+`git clone git@github.com:Atmosera-CoPilot-Dev/copilot-examples.git`
+
+2. Command line utilities used in the apps:
+
+* Python3 (with pip)
+* sqlite
+* Go
+* Docker
+* npm
+* Markdown Mermaid extension for VS Code [installation](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) - This is to render and view visual architecture-diagrams-as-code in markdown.
+
+You can use `brew` on MacOS to install these or `choco` on Windows if you want to execute the generated code examples.
+
+# Pre-requisites
+
+You will need basic knowledge of Git, GitHub, and working with the terminal. Additionally you will need:
+
+1. Visual Studio Code installed - [Download](https://code.visualstudio.com/download) VS Code.
+2. Copilot extension installed - [Download](https://code.visualstudio.com/docs/editor/github-copilot) GitHub Copilot extension for VS Code.
+3. A Copilot enabled GitHub account - See [Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/quickstart).
 
 # Copilot Examples Content
 
