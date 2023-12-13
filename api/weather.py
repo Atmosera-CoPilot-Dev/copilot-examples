@@ -64,4 +64,3 @@ if __name__ == "__main__":
     temperature, time = get_weather(lat, lon)
     print(f"Temperature: {temperature}, Time: {time}")
 
-    

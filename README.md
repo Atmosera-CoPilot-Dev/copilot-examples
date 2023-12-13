@@ -7,16 +7,32 @@ Code snippets and examples demonstrating GH Copilot functionality. This content 
 
 `git clone git@github.com:Atmosera-CoPilot-Dev/copilot-examples.git`
 
-2. Command line utilities used in the apps:
+2. Switch to the `start-labs`` branch:
 
-* Python3 (with pip)
+`git checkout start-labs`
+`git pull`
+
+3. Open up the `copilot-repository` folder in VS Code.
+
+4. Command line utilities used in the apps:
+
+You can install these on the fly if you have `brew` (macOS) or `choco` (Windows) installed. 
+
+* Python3 (with pip3)
 * sqlite
 * Go
 * Docker
 * npm
+
+5. Useful VS Code extensions:
+
 * Markdown Mermaid extension for VS Code [installation](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) - This is to render and view visual architecture-diagrams-as-code in markdown.
 
-You can use `brew` on MacOS to install these or `choco` on Windows if you want to execute the generated code examples.
+56. We will also use Damn Vulnerable Web App for an exercise: https://github.com/digininja/DVWA
+
+`git clone https://github.com/digininja/DVWA.git`
+
+Add this repository to your VS Code workspace.
 
 # Pre-requisites
 

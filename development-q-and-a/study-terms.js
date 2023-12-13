@@ -17,3 +17,12 @@
 //    that has been encrypted with the public key. The public key can be used to verify
 //    that the private key is authentic. The private key can be used to verify that the
 //    public key is authentic. The public key can be used to verify that the
+//    private key is authentic. The private key can be used to verify that the
+//    public key is authentic. The private key can be used to verify that the
+//    public key is authentic. The private key can be used to verify that the
+
+
+// ^ here above you can see that Copilot was unable to complete it's thought and simply repeated itself. This is an occasional issue you may see from time to time
+
+// Q: What is the difference between symmetric and asymmetric encryption?
+// A: Symmetric encryption uses the same key to encrypt and decrypt data. Asymmetric encryption uses a different key to encrypt and decrypt data.

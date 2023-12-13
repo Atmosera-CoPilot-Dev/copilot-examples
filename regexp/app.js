@@ -55,3 +55,4 @@ describe('isPhone', () => {
         expect(isPhone('123 456-7890')).toBe(false);
     });
 }
+

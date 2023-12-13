@@ -1,10 +1,16 @@
+# Summary
+
+This is a simple example of how we can use Copilot to generate reference architecture diagrams such as Network Timing diagram. We will create the format using [Mermaid](https://mermaid.live/).
+
+We will run through the prompts, but you should try this on your own code base or other unfamiliar code!
+
 # Simple Prompt to create Network Timing Diagram
 
-With a source file in scope in Copilot chat, yuo can simple type:
+With a source file in scope in Copilot chat, you can simple type:
 
 `make me a mermaid diagram for this`
 
-We were pretty vague about what we wanted here, and for my try it used a network timing diagram. To be more explicit we could say:
+We were pretty vague about what we wanted here, and for my try it created a network timing diagram. To be more explicit we could say:
 
 `create a network timing diagram in mermaid format for weather.py`
 
@@ -32,7 +38,7 @@ sequenceDiagram
 ```
 
 
-# Mermaid Architecture Diagram Results
+# Adding Mermaid Diagrams to Markdown
 
 You can simply edit mermaid diagrams in Github markdown by adding `mermaid` right after the first three backticks. For example, the following markdown:
 
@@ -62,4 +68,25 @@ sequenceDiagram
         end
     end
 ``````
+
+## Creating a System Diagram
+
+Alternatively we can specify diagram type,
+
+`make me a system architecture resource diagram for weather.py in Mermaid format`
+
+```mermaid
+graph LR
+    A[User] -- Input: Latitude, Longitude --> B[weather.py]
+    B -- GET Request --> C[Open-Meteo API]
+    C -- JSON Response --> B
+    B -- Output: Temperature, Time --> A
+```
+
+# References
+
+* Include diagrams in your markdown with Mermaid: https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/
+* Mermaid Markdown viewer for VS Code: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
+* Mermaid Live Editor: https://mermaid.live/
+* Mermaid Documentation: https://mermaid-js.github.io/mermaid/#/
 

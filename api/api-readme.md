@@ -1,7 +1,10 @@
 # Summary 
 
-This is a demo of prompts from CoPilot chat that will show how to iteratively make better prompts through better requirements.
-We'll write a simply python function that will fetch the current temperature at a given lat/long. You can find the Free Weather API at https://open-meteo.com/.
+This is a demo of prompts from CoPilot chat that will show how to iteratively make better prompts through better requirements. This would be an example of few-shot prompting where we give Copilot a few examples of what we want to do and it will try to figure out the rest.
+
+## Requirements
+
+Build a simple  python command-line utility that will fetch the current temperature at a given lat/long. You can find the Free Weather API at https://open-meteo.com/. Lat and Long are command line parameters.
 
 We want to be able to run the utility from the command-line and get the current temperature in Austin, TX like: 
 
@@ -53,6 +56,12 @@ Now we've given Copilot clear enough requirements about how we want to run the p
 Temperature: 14.6, Time: 2023-12-10T21:45
 ```
 
+# Try 4 - Adding unit tests.
+
+Assuming the app is basically working, we can add some unit test in multiple ways. One way is to prompt at the bottom the `weather.py` file with:
+
+`# Unit test run with pytest to check if the function works properly`
+
 # Some basic error checking
 
 At this point we should have basic cmd-line utility running that returns the current temperature and time of temp on the cmd-line.
@@ -65,14 +74,13 @@ However we have not tested error handling for bad or missing parameters, such as
 Here we need to be a bit more precise, for example placing comments like:
 
 `# Check that the latitude and longitude are floats and also not null`
-` # Check that the latitude and longitude are within valid range`
-
+`# Check that the latitude and longitude are within valid range`
 
 # Installing the application and running it on the command line
 
 To install the application, you can run:
 
-`pip install -r requirements.txt`
+`pip3 install -r requirements.txt`
 
 To run the application, you can run:
 
@@ -97,4 +105,8 @@ To run the type checker, you can run:
 `mypy weather.py`
 
 
+# References
+
+* Tips on using Copilot Prompts: https://github.blog/2023-06-20-how-to-write-better-prompts-for-github-copilot/
+* Zero vs One vs Few Shot prompting: https://www.hatica.io/blog/prompt-engineering-with-github-copilot/
 

@@ -1,22 +1,27 @@
 
 # Infrastructure as Code
 
-This is an example of building some boilerplate infrastructure as code using Docker to wrap a Python Flask hello world app. It should run on port 5001.
-A very simple prompt will get use the basic files we need:
+This is an example of building some boilerplate infrastructure as code using Docker to wrap a Python Flask hello world app. 
+
+A very simple prompt in Copilot Chat will get use the basic files we need:
 
 ```
-please generate me template of starter files that is a python flask application and wraps the application in a docker application.
+please generate me template of starter files that is a python flask application and wraps the application in a docker application. It should run on port 5001
 ```
+
+This should give you all the files you need. Use the **Insert into new file** option in the chat hover to create a new boilerplate project files.
 
 ## Bonus prompt
 
-It out of scope to do a deploy of this app, but Copilot will generate other IaC such as Terraform. For example:
+It's out of scope to do a deploy of this app, but Copilot will generate other IaC such as Terraform. For example:
 
 ```
 generate terraform to deploy this to Azure K8s
 ```
 
 # Pre-requisites
+
+These are the pre-requisites for this example once you have the boilerplate code in place.
 
 ## Install Docker
 
@@ -35,7 +40,7 @@ choco install docker-desktop
 ## Install Python Modules
 
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 # Build and run Docker container
@@ -160,7 +165,14 @@ The fix is to update the requirements.txt file to use the latest version of Werk
 Werkzeug==2.0.2
 ```
 
-
 ## Hello World not working but Docker run is successful
 
 If the default IP/port does not work, just try to visit `http://localhost:5001/`
+
+# References
+
+There are not a whole lot of references I could find for DevOps, IaC, and Copilot. The training data sets may be small and many time dependencies are out of date.
+However, if you need a basic structure for a framework and you give the correct prompts, Copilot can help you learn the general boilerplate placeholders to help you get started.
+
+* GitHub Copilot for DevOps: DevOps and Docker Live Show (Ep 131) -  https://www.youtube.com/watch?v=yKnBgJeD2fA
+

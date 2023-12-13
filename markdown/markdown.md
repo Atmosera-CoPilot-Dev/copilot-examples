@@ -1,3 +1,6 @@
+
+
+
 Table of Contents
 
 * [Summary](#summary)
@@ -15,6 +18,8 @@ Here we will let Copilot generate a Copilot Overview by providing some simple pr
 * [How to use Copilot](#how-to-use-copilot)
 * [How to use Copilot with a new code base](#how-to-use-copilot-with-a-new-code-base)
 
+... and Copilot may suggest some other tips. We'll also add a section on Copilot Architecture in Mermaid Format.
+
 ## What is Copilot?
 
 Copilot is a tool that helps you understand code.  It does this by using machine learning to generate a summary of the code you are looking at.  Copilot can be used to generate summaries of code you are looking at, or to generate summaries of code you are not looking at.  Copilot can also be used to generate summaries of code you are not looking at, but that you are interested in.
@@ -30,6 +35,10 @@ When checking out a new code base, CoPilot will primarily focus on the selected 
 When checking out a new code base, CoPilot will primarily focus on the selected editor window and then use any open files are supplemental input.   If you have a file open that is not in the same directory as the selected editor window, CoPilot will not be able to use that file as input.  If you have a file open that is in the same directory as the selected editor window, CoPilot will use that file as input.  If you have multiple files open that are in the same directory as the selected editor window, CoPilot will use all of those files as input.
 
 ## Copilot Architecture in Mermaid Format
+
+This one will require a prompt:
+
+`Create a network timing diagram in Mermaid format for how Github Copilot works. Include Github Copilot, Github Codebase, Language Model, and Github Server-side API.`
 
 ```mermaid
 sequenceDiagram
@@ -50,7 +59,7 @@ sequenceDiagram
 
 # Some additional Copilot references on the web
 
-* [Copilot on Github]( 
+* [Copilot on Github](https://github.com/features/copilot)
 * [Copilot on Twitter](https://twitter.com/githubcopilot)
 * [Copilot on Youtube](https://www.youtube.com/watch?v=9l7NzDwQDjw)
 * [Copilot on Reddit](https://www.reddit.com/r/github/comments/ou0q7j/github_copilot/)

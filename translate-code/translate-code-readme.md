@@ -1,11 +1,16 @@
+# Summary
+
 This is an example of how you can use Copilot to translate code from one language to another. In this case, we'll translate from Python to Go.
+I've never written Go before, so I'll be learning as I go. I'll also be using Copilot to help me learn Go.
 
 ## Prompts
 
 First select [weather.py](../api/weather.py) and then run the following prompts:
 
 * `Translate weather.py from Python to Go`
-* `Expain how I would run this if I had never used Go before. Provide the results in markdown format`
+* `Explain how I would run this if I had never used Go before. Provide the results in markdown format`
+
+You may notice that these prompts are insufficient to get a working Go app. Try to use the few prompts method and tune your prompts to get the results you want.
 
 ## Results
 
@@ -31,9 +36,16 @@ In the context of the weather program you've been given, you would need to pass 
 
 `go run weather.go 40.7128 -74.0060`
 
-This will print the temperature and time for the specified location.
+This will print the temperature and time for the specified location:
+
+```
+Temperature: 6.700000, Time: 2023-12-13T17:45
+```
 
 Remember, Go programs are typically organized into packages. A package consists of one or more .go source files in a single directory. The package main statement at the top of the file identifies the file as part of the main package. The main function is the entry point of the program. When the program is run, it starts by executing the function main.
 
 Also, Go uses a different approach for error handling compared to languages like Python. Instead of exceptions, Go uses multiple return values to indicate errors. If a function can return an error, it's usually the last return value. If the error is not nil, an error occurred and you can handle it.
 
+# References
+
+At the current time there does not appear to be any official language translation support in Copilot. There was an experimental [labs feature](https://githubnext.com/projects/copilot-labs) but has since been deprecated. This does not mean you cannot translate code, you just need to write clear prompts!
