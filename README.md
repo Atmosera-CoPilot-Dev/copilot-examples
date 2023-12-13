@@ -16,16 +16,11 @@ Generative AI, by definition, can yield very different results based on session 
 
 `git clone git@github.com:Atmosera-CoPilot-Dev/copilot-examples.git`
 
-2. Switch to the `start-labs`` branch:
-
-`git checkout start-labs`
-`git pull`
-
 3. Open up the `copilot-repository` folder in VS Code.
 
-4. Command line utilities used in the apps:
+4. Install the command line utilities used in the apps:
 
-You can install these on the fly if you have `brew` (macOS) or `choco` (Windows) installed. 
+You can install these on the fly if you have `brew` (macOS) or `choco` (Windows) installed. These are only necessary if you want to run the examples to check for correct code.
 
 * Python3 (with pip3)
 * sqlite
