@@ -48,7 +48,7 @@ You will need basic knowledge of Git, GitHub, and working with the terminal. Add
 
 # Copilot Examples Content
 
-Here's a quick rundown of the modules and a suggested order of presenting. Each module show a different aspect of software development, design and architecture. The modules are meant to be taught in order, but can really cherry picked as desired.
+Here's a quick rundown of the modules and a suggested order of presenting. Each module show a different aspect of software development, design and architecture. The modules are meant to be taught in order, but can be cherry picked as desired.
 
 | Topic                                 | What we'll cover                                                                                       |
 |---------------------------------------|-------------------------------------------------------------------------------------------------------|
