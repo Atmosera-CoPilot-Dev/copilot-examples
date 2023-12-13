@@ -4,6 +4,8 @@ This is an initial starter example to show very basic functionality of Copilot. 
 
 # Examples of prompts in CoPilot using simple comments
 
+**TODO**: Try the prompts in study-terms.js. Create your own! Be sure you can ignore or select from multiple suggestions.
+
 `// Q: What does STRIDE stand for in Application Security?`
 
 `// Q: Explain how TLS works`

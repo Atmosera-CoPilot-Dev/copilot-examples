@@ -86,7 +86,7 @@ See [db-gen.py](./db-gen.py)
 
 Be sure to have `sqlite3` installed on the command line.
 
-## Running the module
+## TODO: Running the module
 
 `sqlite3 test.db < <script name>`
 
@@ -99,6 +99,9 @@ We have 3 scripts for which we can generate prompts:
 * [purchases-per-customer.sql](./purchases-per-customer.sql)
 
 Open each of the scripts to see the prompts. Think of some of your own!
+
+TIP: Using Copilot Chat rather than editor suggestions generated better results.
+TIP2: Opening the .py script as well as re-generating the ERD and code seemed to help Copilot understand the data model better, otherwise it wound up making up tables that do not exist.
 
 
 # References

@@ -18,7 +18,7 @@ Check out the DVWA: https://github.com/digininja/DVWA
 
 Open up file: `login.php`
 
-### Prompts to try:
+### TODO: Prompts to try:
 
 * `Explaining the code in login.php`
 * `Create a network timing diagram in mermaid format`. Sometimes you have to really tell it to give more detail, such as `create a network timing diagram for login.php. be as detailed as you can`

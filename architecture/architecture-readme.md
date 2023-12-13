@@ -2,7 +2,7 @@
 
 This is a simple example of how we can use Copilot to generate reference architecture diagrams such as Network Timing diagram. We will create the format using [Mermaid](https://mermaid.live/).
 
-We will run through the prompts, but you should try this on your own code base or other unfamiliar code!
+We will run through the prompts even though the results are posted below. You should try this on your own code base or other unfamiliar code!
 
 # Simple Prompt to create Network Timing Diagram
 

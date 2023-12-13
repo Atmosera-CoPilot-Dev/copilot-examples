@@ -3,7 +3,7 @@
 This module shows a couple of examples of generating regular expressions from code comments as prompts, generating a function to test if a pattern follows the regexp and finally some examples of running a unit test.
 We'll just a basic JavaScript app to show this functionality.
 
-# Sample prompts
+# TODO: Sample prompts
 
 ## Staring from Copilot Chat
 ``` 
@@ -22,15 +22,16 @@ Also include unit tests with both invalid and valid email addresses and proper c
 ```
 
 ```
-// Unit tests for isEmail function. 
+// Unit tests for isEmail function.  
 ```
+
+Alternatively, use `/test`` in a Copilot prompt.
 
 We can repeat this process for verifying a phone number is valid as well for practice.
 
 ## Alternative for generating tests
 
 If you open inline chat and prompt with `/tests` and hit enter, it will generate tests for you (typically in a separate file)
-
 
 ## Running the app tests
 

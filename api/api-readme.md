@@ -10,13 +10,13 @@ We want to be able to run the utility from the command-line and get the current 
 
 `python3 weather.py 45.4215 -75.6972`
 
-# Try 1
+# TODO: Try 1
 
 ```
 Write me a function that uses api.open-meteo.com to get the weather. The input to the script should take the lat and long and return the current temperature and time. Be sure to handle errors if the lat and long is not specified within range as well had handling any HTTP errors. Use the api.open-meteo.com API
 ```
 
-# Try 2
+# TODO: Try 2
 
 The first try doesn't tell the AI engine that we want to the parameters for the API to be taken from the command line, so we can start from scratch again with (new sentence added at the end):
 
@@ -24,7 +24,7 @@ The first try doesn't tell the AI engine that we want to the parameters for the 
 Write me a function that uses api.open-meteo.com to get the weather. The input to the script should take the lat and long and return the current temperature and time. Be sure to handle errors if the lat and long is not specified within range as well had handling any HTTP errors. Use the api.open-meteo.com API. i need to run the script from command line where lat and long are command line parameters
 ```
 
-# Try 3
+# TODO: Try 3
 
 We didn't tell Copilot anything about the API parameters or the schema of the response, so let's try again with that info:
 
@@ -56,13 +56,13 @@ Now we've given Copilot clear enough requirements about how we want to run the p
 Temperature: 14.6, Time: 2023-12-10T21:45
 ```
 
-# Try 4 - Adding unit tests.
+# TODO: Try 4 - Adding unit tests.
 
 Assuming the app is basically working, we can add some unit test in multiple ways. One way is to prompt at the bottom the `weather.py` file with:
 
 `# Unit test run with pytest to check if the function works properly`
 
-# Some basic error checking
+# TODO: Some basic error checking
 
 At this point we should have basic cmd-line utility running that returns the current temperature and time of temp on the cmd-line.
 However we have not tested error handling for bad or missing parameters, such as:

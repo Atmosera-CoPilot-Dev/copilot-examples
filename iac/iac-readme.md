@@ -2,6 +2,9 @@
 # Infrastructure as Code
 
 This is an example of building some boilerplate infrastructure as code using Docker to wrap a Python Flask hello world app. 
+The only requirement is that we run a Python Flask web app in Docker and have it print out "Hello World" in a localhost browser.
+
+## TODO:
 
 A very simple prompt in Copilot Chat will get use the basic files we need:
 

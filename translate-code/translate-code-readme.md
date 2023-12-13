@@ -3,9 +3,9 @@
 This is an example of how you can use Copilot to translate code from one language to another. In this case, we'll translate from Python to Go.
 I've never written Go before, so I'll be learning as I go. I'll also be using Copilot to help me learn Go.
 
-## Prompts
+## TODO: Prompts
 
-First select [weather.py](../api/weather.py) and then run the following prompts:
+First select [weather.py](../api/weather.py) and then run the following prompts in Copilot Chat:
 
 * `Translate weather.py from Python to Go`
 * `Explain how I would run this if I had never used Go before. Provide the results in markdown format`
