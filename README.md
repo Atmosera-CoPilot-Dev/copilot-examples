@@ -4,9 +4,11 @@ Code snippets and examples demonstrating GH Copilot functionality. This content 
 ## Branches
 
 * `main` - This is the starting point with _incomplete_ examples. There are **TODO** comments in each of the example module readme files.
-* `completed-exercises` - This is the completed exercises with working code examples. 
+* `completed-exercises` - These is the completed exercises with working code examples. 
 
-Generative AI, by definition, can yield very different results based on session content and variations in how questions can be asked. Don't expect to get identical results as `completed-exerciese`, even with the same prompts!
+### Note on variety of results
+
+Generative AI, by definition, can yield very different results based on session content and variations in how questions are asked. Do not expect to get identical results as `completed-exercises`, even with the same prompts!
 
 # Installation
 
