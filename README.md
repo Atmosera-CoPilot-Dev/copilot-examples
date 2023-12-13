@@ -24,11 +24,11 @@ You can install these on the fly if you have `brew` (macOS) or `choco` (Windows)
 * Docker
 * npm
 
-5. Useful VS Code extensions:
+5. Mermaid VS Code extensions:
 
-* Markdown Mermaid extension for VS Code [installation](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) - This is to render and view visual architecture-diagrams-as-code in markdown.
+* Markdown Preview Mermaid Support extension for VS Code [installation](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) - This is to render and view visual architecture-diagrams-as-code in markdown.
 
-56. We will also use Damn Vulnerable Web App for an exercise: https://github.com/digininja/DVWA
+6. We will also use Damn Vulnerable Web App for an exercise: https://github.com/digininja/DVWA
 
 `git clone https://github.com/digininja/DVWA.git`
 
