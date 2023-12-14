@@ -40,11 +40,16 @@ Add this repository to your VS Code workspace.
 
 # Pre-requisites
 
-You will need basic knowledge of Git, GitHub, and working with the terminal. Additionally you will need:
+You will need basic knowledge of Git, GitHub, and working with the terminal. Your Github account needs to be enabled for [Copilot](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-settings-on-githubcom) and [Copilot chat](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat-in-your-ide#enabling-or-disabling-github-copilot-chat-at-the-enterprise-level-2).
+
+For local development you will need:
 
 1. Visual Studio Code installed - [Download](https://code.visualstudio.com/download) VS Code.
 2. Copilot extension installed - [Download](https://code.visualstudio.com/docs/editor/github-copilot) GitHub Copilot extension for VS Code.
-3. A Copilot enabled GitHub account - See [Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/quickstart).
+3. Copilot Chat extension installed - [Download](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat).
+4. A Copilot enabled GitHub account - See [Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/quickstart).
+
+NOTE: Please see [Using Copilt Chat in your IDE](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat-in-your-ide) for details on other supported IDEs. 
 
 # Copilot Examples Content
 
