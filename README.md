@@ -71,3 +71,4 @@ Each of the example modules contain references for furhter reading on a specific
 * [Prompt Engineering Guide](https://www.promptingguide.ai/)
 * [Inside Github: Working with the LLMs behind Github Copilot](https://github.blog/2023-05-17-inside-github-working-with-the-llms-behind-github-copilot/)
 * [Github Copilot X: The AI-powered developer experience](https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/)
+* [Promt Injection Attacks](https://research.nccgroup.com/2022/12/05/exploring-prompt-injection-attacks/)
