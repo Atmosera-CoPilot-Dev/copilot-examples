@@ -64,4 +64,10 @@ Here's a quick rundown of the modules and a suggested order of presenting. Each 
 | Getting up to speed on a new code base | See [new-codebase](./new-codebase/) - Here we'll look at how you can use Copilot to get up to speed on a new code base. |
 | Infrastructure as Code                | See [iac](./iac/) - Here we'll use Copilot to build some boilerplate infrastructure as code using Docker to wrap a Python Flask hello world app. It should run on port 5001. |
 
+# References for Futher Reading 
 
+Each of the example modules contain references for furhter reading on a specific topic. If you would like a deeper understanding of promt engineering, how Copilot works, and the future of Copilot X, please consider reading these sources:
+
+* [Prompt Engineering Guide](https://www.promptingguide.ai/)
+* [Inside Github: Working with the LLMs behind Github Copilot](https://github.blog/2023-05-17-inside-github-working-with-the-llms-behind-github-copilot/)
+* [Github Copilot X: The AI-powered developer experience](https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/)
