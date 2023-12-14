@@ -40,7 +40,8 @@ You will need basic knowledge of Git, GitHub, and working with the terminal. Add
 
 1. Visual Studio Code installed - [Download](https://code.visualstudio.com/download) VS Code.
 2. Copilot extension installed - [Download](https://code.visualstudio.com/docs/editor/github-copilot) GitHub Copilot extension for VS Code.
-3. A Copilot enabled GitHub account - See [Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/quickstart).
+3. Copilot Chat extension installed - [Download](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat).
+4. A Copilot enabled GitHub account - See [Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/quickstart).
 
 # Copilot Examples Content
 
