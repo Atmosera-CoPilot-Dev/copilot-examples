@@ -1,0 +1,24 @@
+
+name: "Check GHAS Security Features"
+
+on:
+  workflow_dispatch:
+    branches: [develop, main]
+
+jobs:
+  ghas-feature-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check GHAS Features
+        # if you have subdirs under your .github/actions/ folder you need the full path
+        uses: Atmosera-adv-sec-prep/ghas-checker-action/.github/actions/ghas-feature-checker-action-js@v0.1
+        with:
+          token: ${{ secrets.GH_PAT }}
+          # Other flag you can pass in. All are set to 'false' by default
+          # Setting to true will skip the check
+          skipDependabot: 'false'  
+          skipSecretScanning: 'false' 
+          skipSecretScanningPushProtection: 'false'  
+          skipCodeScanning: 'false'  
+        
