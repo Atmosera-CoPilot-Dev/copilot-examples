@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
       - name: Check GHAS Features
         # if you have subdirs under your .github/actions/ folder you need the full path
         uses: Atmosera-adv-sec-prep/ghas-checker-action/.github/actions/ghas-feature-checker-action-js@v0.1
